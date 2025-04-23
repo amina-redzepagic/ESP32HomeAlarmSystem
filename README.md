@@ -1,4 +1,3 @@
-# ESP32HomeAlarmSystem
 # ESP32 Home Alarm System
 
 A simple door‐entry alarm built on an ESP32 that:
@@ -48,13 +47,13 @@ _Wiring diagram available in the project docs._
 
 4. **Build and Upload**
 
-      # Clean previous builds
+      Clean previous builds
       pio run -t clean
 
-      # Compile
+      Compile
       pio run
 
-      # Flash to ESP32 (make sure it’s in bootloader mode if needed)
+      Flash to ESP32 (make sure it’s in bootloader mode if needed)
       pio run -t upload
 
 5. **Monitor Serial Output**
